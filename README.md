@@ -1,9 +1,19 @@
 # lemon
 
-A Clojure library designed to ... well, that part is up to you.
+Utility library for **Clojure**.
+
+## Leiningen
+[![Clojars Project](https://img.shields.io/clojars/v/lemon.svg)](https://clojars.org/lemon)
 
 ## Usage
-
+### lemon.core
+```clojure
+(use 'lemon.core)
+```
+**numord**
+```clojure
+(numord 1 < 2 < 4)
+```
 FIXME
 
 ## License
